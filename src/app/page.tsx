@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 export default function Home() {
     return (
-        <main>
-            <header>
+        <main className="flex flex-col bg-dark-blue text-text-white font-body">
+            <header className="bg-[#00192C] h-[3.13113rem] content-center text-center drop-shadow-[0_0_54px_0_rgba(0,0,0,0.75)]">
                 This is an example of a notification message. It can be used to
                 promote a specific campaign, etc.
             </header>
@@ -13,9 +13,9 @@ export default function Home() {
 
                 <nav className="uppercase">Menu</nav>
             </header>
-            
+
             <section>
-                <h1 className="uppercase">Choose your access</h1>
+                <h1 className="uppercase font-display">Choose your access</h1>
 
                 <p>
                     Expand your provider network <i>anywhere</i> in the country.
@@ -25,7 +25,7 @@ export default function Home() {
 
                 <label htmlFor="email">Email Address</label>
                 <input type="text" name="email" id="email"></input>
-                <button className="uppercase">Learn More</button>
+                <button className="uppercase font-display">Learn More</button>
 
                 <p>
                     Lorem Ipsum is simply dummy text of the printing and
@@ -51,7 +51,7 @@ export default function Home() {
                 </p>
 
                 <p>
-                    <a className="uppercase">Contact us</a>
+                    <a className="uppercase font-display">Contact us</a>
                 </p>
             </section>
         </main>
