@@ -9,14 +9,16 @@ export default function Home() {
                 promote a specific campaign, etc.
             </header>
 
-            <header className="w-[75rem] flex flex-row justify-between pt-[3.26rem]">
+            <header className="w-[75rem] flex flex-row justify-between pt-[3.26rem] items-center">
                 <div className="w-[14.625rem] h-[1.6875rem] relative">
                     <Image src="/magnacare_logo.svg" fill alt="MAGNACARE™" />
                 </div>
 
                 <nav className="uppercase">
-                    <div className="w-[1.8125rem] h-[1.4375rem] relative">
-                        <Image src="/icons/menu_icon.svg" fill alt="Menu" />
+                    <div className="w-[3rem] h-[3rem] hover:bg-[#ff763c] hover:rounded-[0.3125rem] flex items-center justify-center">
+                        <a className="w-[1.8125rem] h-[1.4375rem] relative" href="#">
+                            <Image src="/icons/menu_icon.svg" fill alt="Menu" />
+                        </a>
                     </div>
                 </nav>
             </header>
@@ -66,7 +68,7 @@ export default function Home() {
                     </p>
                 </div>
 
-                <div className="mt-[12.94rem] relative">
+                <div className="mt-[12.94rem] relative flex flex-row">
                     <input
                         type="text"
                         name="email"
@@ -125,18 +127,16 @@ export default function Home() {
                                 surgery centers.
                             </p>
                             <p className="text-[0.9825rem] pt-[9.09rem] opacity-[0.6]">
-                                <a className="uppercase font-display">
+                                <a
+                                    className="uppercase font-display hover:underline hover:underline-offset-4 text-text-white"
+                                    href="#">
                                     Contact us
                                 </a>
                             </p>
                         </div>
 
                         <div className="relative ml-[6.38rem] w-[40.0625rem] h-[24.6875rem]">
-                            <Image
-                                src="/usa_map.svg"
-                                fill
-                                alt=""
-                            />
+                            <Image src="/usa_map.svg" fill alt="" />
 
                             {[0, 1, 2, 3, 4, 5, 6].map((pos) => (
                                 <div
