@@ -26,10 +26,10 @@ export default function Home() {
       <section className="mt-[2.73rem] flex w-full lg:w-[90rem] flex-col items-center transition-[width]">
         <div className="relative flex w-full flex-col items-center">
           <h1 className="inline-flex flex-col items-center font-display uppercase w-full mb-8 lg:mb-0  px-4 lg:px-0 overflow-clip">
-            <span className="text-[2.2325rem] tracking-[0.84838rem]">
+            <span className="text-[2.2325rem] tracking-[0.84838rem] text-center">
               Choose your
             </span>{" "}
-            <span className="block relative mt-[4.2rem] ml-[-0.6rem] w-full max-w-[53.125rem] aspect-[849/531]">
+            <span className="block relative mt-4 lg:mt-[4.2rem] ml-[-0.6rem] w-full max-w-[53.125rem] aspect-[849/531]">
               <Image src="/ACCESS.svg" fill alt="access" />
               <div className="absolute left-[-20%] lg:left-[-5rem] top-[29.9%] lg:top-[10rem] h-[15.5%] lg:h-[4.97rem] w-[94%] lg:w-[44.3rem] bg-text-white mix-blend-overlay" />
               <div className="absolute right-[-20%] lg:left-[23.5rem] top-[60%] lg:top-[19.2rem] h-[15.5%] lg:h-[5.41rem] w-[75%] lg:w-[44.3rem] bg-text-white mix-blend-overlay" />
@@ -47,7 +47,7 @@ export default function Home() {
             <Image src="/icons/add_icon.svg" fill alt="" />
           </div>
 
-          <p className="lg:mt-[3.7rem] py-4 lg:pl-[28.125rem] lg:pr-[9.375rem] lg:pt-[0.625rem] text-[1.92rem] leading-[165%] tracking-[0.02881rem]  px-4 lg:px-0 ">
+          <p className="lg:mt-[3.7rem] py-4 lg:pl-[28.125rem] lg:pr-[9.375rem] lg:pt-[0.625rem] text-[1.7rem] lg:text-[1.92rem] leading-[165%] tracking-[0.02881rem]  px-4 lg:px-0 ">
             Expand your provider network{" "}
             <b>
               <i>anywhere</i>
@@ -57,15 +57,15 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="relative mt-20 lg:mt-[12.94rem] flex flex-row w-full lg:w-auto p-4">
+        <div className="relative mt-20 lg:mt-[12.94rem] flex flex-row w-screen lg:w-auto p-4">
           <input
             type="text"
             name="email"
             id="email"
             placeholder="Email Address"
-            className="h-[5rem] flex-1 lg:w-[26rem] rounded-[0.3125rem_0_0_0.3125rem] border-[1px] border-solid border-[rgba(229,242,248,0.33)] bg-[rgba(229,242,248,0.05)] pl-[1.63rem] text-[1.6075rem] placeholder-text-white opacity-40"
+            className="h-[5rem] flex-1 lg:w-[26rem] rounded-[0.3125rem_0_0_0.3125rem] border-[1px] border-solid border-[rgba(229,242,248,0.33)] bg-[rgba(229,242,248,0.05)] pl-[1.63rem] text-[1.4rem] min-w-[60%] lg:text-[1.6075rem] placeholder-text-white opacity-40"
           ></input>
-          <button className="h-[5rem] px-4 w-[18.5rem] rounded-[0_0.3125rem_0.3125rem_0] bg-[#ff763c] font-display text-[1.1075rem] uppercase text-[#001A2E] shadow-[0_0_54px_0_rgba(255,118,59,0.60)]">
+          <button className="h-[5rem] px-2 w-[18.5rem] rounded-[0_0.3125rem_0.3125rem_0] bg-[#ff763c] font-display text-[1rem] lg:text-[1.1075rem] uppercase text-[#001A2E] shadow-[0_0_54px_0_rgba(255,118,59,0.60)]">
             Learn More
           </button>
         </div>
@@ -88,7 +88,7 @@ export default function Home() {
         </div>
 
         <div className="relative mb-[10.46rem] mt-[-9rem] w-full lg:w-[82.5rem] self-end bg-[#001A2E] p-10 lg:p-[4.25rem_0_4.7rem_5rem]">
-          <h2 className="lg:w-[55rem] text-[4.22938rem] leading-[129%] tracking-[-0.10575rem]">
+          <h2 className="lg:w-[55rem] text-[3rem] lg:text-[4.22938rem] leading-[129%] tracking-[-0.10575rem]">
             Need to offer <i>nationwide</i> access to health care providers?
           </h2>
 
