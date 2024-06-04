@@ -1,6 +1,1 @@
-<svg width="130" height="130" viewBox="0 0 130 130" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Group 22">
-<rect id="Rectangle 49" x="62.2529" y="1.47107" width="5.61334" height="127.876" fill="#005595" stroke="#005595"/>
-<rect id="Rectangle 50" x="128.998" y="62.6026" width="5.61334" height="127.876" transform="rotate(90 128.998 62.6026)" fill="#005595" stroke="#005595"/>
-</g>
-</svg>
+<svg width="130" height="130" fill="none" xmlns="http://www.w3.org/2000/svg"><g fill="#005595" stroke="#005595"><path d="M62.253 1.471h5.613v127.876h-5.613z"/><path d="M128.998 62.603v5.613H1.122v-5.613z"/></g></svg>
