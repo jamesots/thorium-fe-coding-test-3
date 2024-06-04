@@ -29,9 +29,8 @@ export default function Home() {
             <span className="text-[2.2325rem] tracking-[0.84838rem]">
               Choose your
             </span>{" "}
-            <span className="mt-[3.32rem] flex flex-col bg-[#54C9FF] bg-[_radial-gradient(ellipse_20%_80%_at_10%_80%,rgba(0,14,28,0.6)_0%,rgba(0,33,55,0)_60%),_radial-gradient(ellipse_20%_80%_at_80%_40%,_rgba(0,0,0,0.5)_0%,rgba(0,0,0,0)_60%)] bg-clip-text text-[19.25969rem] leading-[91%] tracking-[0.09631rem] text-transparent [text-shadow:_0_4px_4px_rgba(0,0,0,0.25)]">
-              <span>acc</span>
-              <span>ess</span>
+            <span className="block relative mt-[4.2rem] ml-[-0.6rem] w-[53.125rem] h-[33.1875rem]">
+              <Image src="/ACCESS.svg" fill alt="access" />
             </span>
           </h1>
           <div className="absolute right-0 top-[2rem] h-[24.75rem] w-[18.75rem]">
@@ -43,7 +42,7 @@ export default function Home() {
           <div className="absolute left-[6.6rem] top-[62rem] h-[7.9375rem] w-[7.9375rem]">
             <Image src="/icons/add_icon.svg" fill alt="" />
           </div>
-          <div className="absolute left-[11.875rem] top-[17.5rem] h-[4.97rem] w-[44.3rem] bg-text-white mix-blend-overlay" />
+          <div className="absolute left-[13.4rem] top-[17.5rem] h-[4.97rem] w-[44.3rem] bg-text-white mix-blend-overlay" />
           <div className="absolute left-[42.5rem] top-[26.8rem] h-[5.41rem] w-[44.3rem] bg-text-white mix-blend-overlay" />
 
           <p className="mt-[3.7rem] pl-[28.125rem] pr-[9.375rem] pt-[0.625rem] text-[1.92rem] leading-[165%] tracking-[0.02881rem]">
