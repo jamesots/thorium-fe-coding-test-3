@@ -25,7 +25,7 @@ export default function Home() {
 
       <section className="mt-[2.73rem] flex w-full lg:w-[90rem] flex-col items-center transition-[width]">
         <div className="relative flex w-full flex-col items-center">
-          <h1 className="inline-flex flex-col items-center font-display uppercase w-full mb-8 lg:mb-0  px-4 lg:px-0 ">
+          <h1 className="inline-flex flex-col items-center font-display uppercase w-full mb-8 lg:mb-0  px-4 lg:px-0 overflow-clip">
             <span className="text-[2.2325rem] tracking-[0.84838rem]">
               Choose your
             </span>{" "}
