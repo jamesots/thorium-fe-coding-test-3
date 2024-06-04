@@ -87,7 +87,7 @@ export default function Home() {
           <Image src="/photos/female_doctor_cropped.jpeg" fill alt="" />
         </div>
 
-        <div className="relative mb-[10.46rem] mt-[-9rem] w-full lg:w-[82.5rem] self-end bg-[#001A2E] p-10 lg:p-[4.25rem_0_4.7rem_5rem]">
+        <div className="relative mb-[10.46rem] lg:mt-[-9rem] w-full lg:w-[82.5rem] self-end bg-[#001A2E] p-10 lg:p-[4.25rem_0_4.7rem_5rem]">
           <h2 className="lg:w-[55rem] text-[3rem] lg:text-[4.22938rem] leading-[129%] tracking-[-0.10575rem]">
             Need to offer <i>nationwide</i> access to health care providers?
           </h2>
